@@ -1,0 +1,30 @@
+{
+  "name": "mostlydb",
+  "version": "0.1.0",
+  "description": "MongoDB queries over any storage backend",
+  "type": "module",
+  "module": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "license": "MIT",
+  "author": "Beorn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beorn/mostlydb"
+  },
+  "keywords": ["mongodb", "queries", "unstorage", "cache", "database"],
+  "dependencies": {
+    "mingo": "^7.0.0",
+    "unstorage": "^1.17.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vitepress": "^1.6.4"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  }
+}
