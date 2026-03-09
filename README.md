@@ -79,10 +79,6 @@ db.find({ status: "active" })
 
 `StorageWriteError` is thrown when backend persistence fails. The cache may be inconsistent -- callers should restart the application.
 
-## Documentation
-
-[Full documentation](https://beorn.github.io/mostlydb/)
-
 ## License
 
 MIT
